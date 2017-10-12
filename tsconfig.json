@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": true,
+        "checkJs": true,
+        "target": "es6",
+        "sourceMap": true,
+        "module": "commonjs",
+        "watch": true,
+        "pretty": true,
+        "allowSyntheticDefaultImports": true
+    },
+    // "typeAcquisition": {
+    //     "enable": true,
+    //     "include": [
+    //         "mongoose",
+    //         "node",
+    //         "mongodb",
+    //         "express"
+    //     ]
+    // },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+    "compileOnSave": true,
+    "include": [
+        "./src/**/*"
+    ]
+}

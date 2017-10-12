@@ -1,0 +1,29 @@
+{
+    "name": "vue-app-server",
+    "version": "1.0.0",
+    "description": "给 new-vue-app 定制的服务端, 提供API",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.15.4"
+    },
+    "devDependencies": {
+        "@types/mongoose": "^4.7.21",
+        "@types/node": "^8.0.26",
+        "mongoose": "^4.11.10",
+        "mongoose_schema-json": "^1.0.3"
+    },
+    "scripts": {
+        "dev": "supervisor -w build ./built/index.js",
+        "bulid": "tsc",
+        "remove": "node ./src/mongo/tool/clean"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "mongoose",
+        "mongodb",
+        "api"
+    ],
+    "author": "Geoffrey Qiao",
+    "license": "ISC"
+}
